@@ -75,7 +75,7 @@ const AppointmentsTable: React.FC<AppointmentsTableProps> = ({
   const responsiveSize = isDesktop(layout) ? 'sm' : 'lg';
 
   const headerData = appointmentsTableColumns.map((columnKey) => ({
-    header: t(columnKey, columnKey),
+    header: t(columnKey),
     key: columnKey,
   }));
 
