@@ -3,7 +3,7 @@ import { configSchema } from './config-schema';
 import homeNavMenuComponent from './side-menu/side-menu.component';
 import rootComponent from './root.component';
 
-const moduleName = '@openmrs/esm-home-app';
+const moduleName = '@thrustdevs/esm-home-app';
 const pageName = 'home';
 
 const options = {
